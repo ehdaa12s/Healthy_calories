@@ -22,10 +22,11 @@ class food6 extends StatelessWidget {
               fit: BoxFit.cover,
             ),
                 Text("المقادير",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 35.0,
-                    )),
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold,
+                  ), ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
@@ -37,16 +38,20 @@ class food6 extends StatelessWidget {
                ' بودرة الكاسترد الجاهزة : 4 ملاعق كبيرة'
             '\n'
                 ' العسل: 2 ملعقة كبيرة (للتزيين)'
-                    ),
+                   ,style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ), ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
                 ),
                 Text("طريقة التحضير ",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 35.0,
-                    )),
+                   style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold,
+                  ), ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
@@ -57,6 +62,10 @@ class food6 extends StatelessWidget {
                ' اسكبي الخليط في طبق التقديم واتركيه جانباً حتى يبرد، ثم أدخليه إلى الثلاجة.'
                 '\n'
                   '  زيّني الحلى بالعسل، ثم قدميه بارداً'
+                        ,style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20.0,
+                ),
                 )
 
           ]),],

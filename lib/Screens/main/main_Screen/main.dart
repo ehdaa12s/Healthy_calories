@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:health/feature/splash/presentation%20layer/splash_view.dart';
-import 'package:health/modules/Login_Screen.dart';
+import 'package:health/Screens/login/Login_Screen.dart';
 
-import 'layout/main1.dart';
+import '../main1.dart';
 
 
 void main() {

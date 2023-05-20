@@ -22,29 +22,39 @@ class food9 extends StatelessWidget {
               fit: BoxFit.cover,
             ),
                 Text("المقادير",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 35.0,
-                    )),
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold,
+                  ),),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
                 ),
-            Text(""),
+            Text("",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ),),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
                 ),
                 Text("طريقة التحضير ",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 35.0,
-                    )),
+                   style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold,
+                  ),),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
                 ),
-                Text('')
+                Text('',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20.0,
+                  ),),
           ]),],
         ),
       ),

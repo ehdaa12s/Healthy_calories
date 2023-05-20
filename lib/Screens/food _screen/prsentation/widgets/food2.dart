@@ -23,10 +23,11 @@ class food2 extends StatelessWidget {
               fit: BoxFit.cover,
             ),
             Text("المقادير",
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 35.0,
-                )),
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+              ),  ),
             Text("زبادي :علبة"
                 '\n'
                 "حليب : لتر ونصف"
@@ -34,12 +35,17 @@ class food2 extends StatelessWidget {
                 "الغريب فروت :4 ملاعق كبيرة"
                 '\n'
                 "الفواكة : حسب الرغبة"
-                '\n'),
+                '\n',
+              style: TextStyle(
+              color: Colors.black,
+              fontSize: 20.0,
+            ),  ),
             Text("طريقة التحضير ",
                 style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 35.0,
-                )),
+                color: Colors.black,
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+              ),),
             SizedBox(
               height: 15.0,
               width: 15.0,
@@ -49,7 +55,12 @@ class food2 extends StatelessWidget {
                 '\n'
                 'أضيفي ملعقتان من هذا المزيج الي كل كوب '
                 '\n'
-                'امزجي كل من الجليب البارد؛والزبادي؛ووزغي هذا المزيج علي الكوبين فالمزيد من مزيج  الفاكهة والجريب فروت وقدميه علي الفور. ')
+                'امزجي كل من الجليب البارد؛والزبادي؛ووزغي هذا المزيج علي الكوبين فالمزيد من مزيج  الفاكهة والجريب فروت وقدميه علي الفور. ',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ),
+            )
           ]),],
         ),
       ),

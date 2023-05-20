@@ -22,10 +22,12 @@ class food3 extends StatelessWidget {
               fit: BoxFit.cover,
             ),
             Text("المقادير",
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 35.0,
-                )),
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+              ),
+               ),
             SizedBox(
               height: 15.0,
               width: 15.0,
@@ -38,16 +40,22 @@ class food3 extends StatelessWidget {
                 "الكرفس : نصف حبة"
                 '\n'
                 "عصير الليمون: نصف حبة"
-                '\n'),
+                '\n',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ), ),
             SizedBox(
               height: 15.0,
               width: 15.0,
             ),
             Text("طريقة التجضير",
                 style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 35.0,
-                )),
+                color: Colors.black,
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+              ),
+               ),
             SizedBox(
               height: 15.0,
               width: 15.0,
@@ -59,7 +67,11 @@ class food3 extends StatelessWidget {
                 '\n'
                 'اضيفي عصير الليمون علي الخليط ، ثم قلبيه جيدا وصفيه '
                 '\n'
-                'ضعي العصير في الثلاجه ، ثم قدميه باردا ')
+                'ضعي العصير في الثلاجه ، ثم قدميه باردا ',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ),)
           ]),],
         ),
       ),

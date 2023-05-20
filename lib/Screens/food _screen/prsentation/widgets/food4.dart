@@ -22,10 +22,11 @@ class food4 extends StatelessWidget {
               fit: BoxFit.cover,
             ),
             Text("المقادير",
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 35.0,
-                )),
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+              ),  ),
             SizedBox(
               height: 15.0,
               width: 15.0,
@@ -59,16 +60,21 @@ class food4 extends StatelessWidget {
                 "الخردل: ملعقه صغيرة"
                 '\n'
                 "ملح : ملعقه صغيرة"
-                '\n'),
+                '\n',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ),  ),
             SizedBox(
               height: 15.0,
               width: 15.0,
             ),
             Text("طريقة التحضير ",
                 style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 35.0,
-                )),
+                color: Colors.black,
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+              ),  ),
             SizedBox(
               height: 15.0,
               width: 15.0,
@@ -87,7 +93,10 @@ class food4 extends StatelessWidget {
                 'أضيفي الخضار فوق الدجاج في المقلاة ثم قلبي قليلا لمدة 5دقائق   '
                 '\n'
                 'ضعي الدجاج والخصار  في صينية فرن ثم أدخليها إلي الفرن  حتي تتحمر ثم قدميها ساخنة .'
-                  )
+                , style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ), )
           ]),],
         ),
       ),

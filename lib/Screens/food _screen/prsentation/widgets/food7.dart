@@ -22,10 +22,11 @@ class food7 extends StatelessWidget {
               fit: BoxFit.cover,
             ),
                 Text("المقادير",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 35.0,
-                    )),
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold,
+                  ),  ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
@@ -49,16 +50,20 @@ class food7 extends StatelessWidget {
      'ملح : رشّة'
             '\n'
     ' بهارات : حسب الرغبة'
-            ),
+           ,style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ), ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
                 ),
                 Text("طريقة التحضير ",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 35.0,
-                    )),
+                   style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold,
+                  ),  ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
@@ -77,7 +82,12 @@ class food7 extends StatelessWidget {
 
                   '\n'  'في مقلاة على النار سخّني 5 ملعقة كبيرة من زيت الزيتون ثم أضيفي الثوم، والفلفل الحار'
                   '\n'  ' المجفف، والبقدونس وقلبي المكونات قليلاً.'
-                  ' أخرجي السمك من الفرن ثم أضيفي الليمون واسكبي صلصة البقدونس فوقه، ثم قدميه'),
+                  ' أخرجي السمك من الفرن ثم أضيفي الليمون واسكبي صلصة البقدونس فوقه، ثم قدميه'
+                ,style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20.0,
+                ),
+                ),
           ]),],
         ),
       ),

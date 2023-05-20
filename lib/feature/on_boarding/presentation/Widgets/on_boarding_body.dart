@@ -6,7 +6,7 @@ import 'package:health/core/utils/size_config.dart';
 import 'package:health/core/widgets/custom_buttons.dart';
 import 'package:health/feature/on_boarding/presentation/Widgets/Custom_page_view.dart';
 import 'package:health/feature/on_boarding/presentation/Widgets/custom_indicator.dart';
-import 'package:health/modules/Login_Screen.dart';
+import 'package:health/Screens/login/Login_Screen.dart';
 
 class OnBoardingViewBody extends StatefulWidget {
   const OnBoardingViewBody({Key? key}) : super(key: key);

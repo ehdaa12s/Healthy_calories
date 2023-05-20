@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:health/layout/profile.dart';
-import 'package:health/modules/Login_Screen.dart';
+import 'package:health/Screens/setting/presntion/widget/profile.dart';
+import 'package:health/Screens/login/Login_Screen.dart';
 
 class setting extends StatefulWidget {
   const setting({Key? key}) : super(key: key);

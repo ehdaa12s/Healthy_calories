@@ -22,10 +22,11 @@ class food5 extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           Text("المقادير",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 35.0,
-                    )),
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 30.0,
+              fontWeight: FontWeight.bold,
+            ),  ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
@@ -44,16 +45,21 @@ class food5 extends StatelessWidget {
                 "فلفل أسود : ربع ملعقة صغيرة مطحون \n"
                 "بقدونس : ملعقه كبيرة ( مفروم)\n"
                 "الماء: ربع كوب \n"
-                ),
+                ,
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ), ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
                 ),
             Text("طريقة التحضير ",
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 35.0,
-                )),
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 30.0,
+                fontWeight: FontWeight.bold,
+              ),  ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
@@ -62,7 +68,12 @@ class food5 extends StatelessWidget {
                     'أضيفي الثوم والجزر والفاصوليا الخضراء ، وقلبي المكونات الي عدة دقائق حتي تطري.\n'
                     'أضيفي البايلاء ، والحمص، والمشروم، والبقدونس المفروم ، ثم قلبي جيدا \n'
                     'تبلي خليط الخضراوات بالملج، والفلفل الاسود ، ومكعب مرق الخضار \n'
-                    'أضيفي الارز البني المسلرق وصبي الماء ، ثم قلبي جيدا حتي ينضج ، ثم قدمية ساخنا   '),
+                    'أضيفي الارز البني المسلرق وصبي الماء ، ثم قلبي جيدا حتي ينضج ، ثم قدمية ساخنا   '
+                ,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20.0,
+                  ), ),
 
           ]),],
         ),

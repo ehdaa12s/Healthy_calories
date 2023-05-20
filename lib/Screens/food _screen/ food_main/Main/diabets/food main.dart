@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:health/Screens/food%20_screen/prsentation/widgets/food10.dart';
+import 'package:health/Screens/food%20_screen/prsentation/widgets/food11.dart';
+import 'package:health/Screens/food%20_screen/prsentation/widgets/food12.dart';
 
-import '../modules/food1.dart';
-import '../modules/food2.dart';
-import '../modules/food3.dart';
-import '../modules/food4.dart';
-import '../modules/food5.dart';
-import '../modules/food6.dart';
-import '../modules/food7.dart';
-import '../modules/food8.dart';
-import '../modules/food9.dart';
+import '../../../prsentation/widgets/food1.dart';
+import '../../../prsentation/widgets/food2.dart';
+import '../../../prsentation/widgets/food3.dart';
+import '../../../prsentation/widgets/food4.dart';
+import '../../../prsentation/widgets/food5.dart';
+import '../../../prsentation/widgets/food6.dart';
+import '../../../prsentation/widgets/food7.dart';
+import '../../../prsentation/widgets/food8.dart';
+import '../../../prsentation/widgets/food9.dart';
 
 class food_main extends StatelessWidget {
   const food_main({Key? key}) : super(key: key);
@@ -18,10 +21,36 @@ class food_main extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue[200],
-        title: Text(" اختر أكلتك "),
+        title: Text(" اكلات صحية "),
       ),
       body: ListView(
         children: [
+
+
+          ListTile(
+              leading: CircleAvatar(
+                backgroundImage:
+                    NetworkImage('https://kitchen.sayidaty.net/uploads/small/f1/f160e274593201e56d76b847daa2189a_w750_h500.jpg'),
+              ),
+              title: TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => food12(),
+                    ),
+                  );
+                },
+                child: Text(
+                  'طريقة عمل الخبز الأسمر لمرضى السكري',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20.0,
+                  ),
+                ),
+              )),
+
+
           ListTile(
               leading: CircleAvatar(
                 backgroundImage:

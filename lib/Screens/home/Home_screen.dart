@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:health/layout/food%20main.dart';
-import 'package:health/layout/main1.dart';
-import 'package:health/layout/setting.dart';
-import 'package:health/modules/Health.dart';
+import 'package:health/Screens/devices/advice_main.dart';
+import 'package:health/Screens/food%20_screen/%20food_main/Main/diabets/food%20main.dart';
+import 'package:health/Screens/food%20_screen/%20food_main/Main/main.dart';
+import 'package:health/Screens/main/main1.dart';
+import 'package:health/Screens/setting/setting.dart';
+
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 
 class Home_screen extends StatefulWidget {
@@ -22,8 +24,8 @@ class _Home_screenState extends State<Home_screen> {
     List<Widget> _buildScreens() {
       return [
         main1(),
-        food_main(),
-        Health(),
+     Food_Main(),
+       adivice_main(),
         setting(),
       ];
     }

@@ -24,8 +24,10 @@ class food1 extends StatelessWidget {
             Text("المقادير",
                 style: TextStyle(
                   color: Colors.black,
-                  fontSize: 35.0,
-                )),
+                  fontSize: 30.0,
+                  fontWeight: FontWeight.bold,
+               ),
+            ),
             SizedBox(
               height: 15.0,
               width: 15.0,
@@ -54,7 +56,11 @@ class food1 extends StatelessWidget {
                 "- إكليل الجبل : ملعقة كبيرة (مجفف)"
                 '\n'
                 " - ريحان : ملعقة كبيرة (مجفف)"
-                '\n'),
+                '\n',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ),  ),
             SizedBox(
               height: 15.0,
               width: 15.0,
@@ -62,7 +68,8 @@ class food1 extends StatelessWidget {
             Text("طريقه التحضير",
                 style: TextStyle(
                   color: Colors.black,
-                  fontSize: 35.0,
+                  fontSize: 30.0,
+                  fontWeight: FontWeight.bold,
                 )),
             SizedBox(
               height: 15.0,
@@ -82,7 +89,11 @@ class food1 extends StatelessWidget {
                 'اخبزي الصينية في الفرن لمدة 30 دقيقة لينضج السمك.'
                 '\n'
                 '  أخرجي الصينية من الفرن وانقلها إلى أطباق التقديم ويقدم ساخناً.'
-                '\n'),
+                '\n',style: TextStyle(
+              color: Colors.black,
+              fontSize: 20.0,
+            ),
+            ),
           ]),],
         ),
       ),

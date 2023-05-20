@@ -22,10 +22,11 @@ class food8 extends StatelessWidget {
               fit: BoxFit.cover,
             ),
                 Text("المقادير",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 35.0,
-                    )),
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold,
+                  ), ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
@@ -46,16 +47,22 @@ class food8 extends StatelessWidget {
      'فلفل أسود : ربع ملعقة صغيرة''\n'
      'الكمون : ملعقة صغيرة''\n'
      'رذاذ الطبخ :حسب الحاجة''\n'
+                ,
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20.0,
+              ),
     ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
                 ),
                 Text("طريقة التحضير ",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 35.0,
-                    )),
+                   style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.bold,
+                  ), ),
                 SizedBox(
                   height: 15.0,
                   width: 15.0,
@@ -70,7 +77,13 @@ class food8 extends StatelessWidget {
                    ' لتحضير الصلصة: ضعي صلصة الطماطم في قدر وأضيفي إليها البقدونس.''\n'
                   ' نكهي المزيج بالفلفل الحلو، والفلفل الحار، واتركيه حتى يغلي ثم خففي النار حتى يسخن المزيج.''\n'
                   '  في طبق التقديم اسكبي مزيج الأرز وضعي الصلصة عليه.''\n'
-                '   زيني الوجه بالكمية المتبقية من مزيج البصل.')
+                '   زيني الوجه بالكمية المتبقية من مزيج البصل.'
+                  ,
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20.0,
+                  ),
+                ),
           ]),],
         ),
       ),
